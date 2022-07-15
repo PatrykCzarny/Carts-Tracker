@@ -1,0 +1,37 @@
+<div class="container">
+    <h1>RTS - Settings</h1>
+    <div class="content">
+        <div class="p1 floor">
+            <h1>P1</h1>
+            {{#each p1}}{{#if (selectCarts this)}}
+            <div class="row">
+                <button class="deleteRow">X</button> <span>{{this.name}}: </span> {{> dropDownStyleCarts}}
+            </div>
+            {{/if}}{{/each}}
+        </div>
+        <div class="p2 floor">
+            <h1>P2</h1>
+            {{#each p2}}{{#if (selectCarts this)}}
+            <div class="row">
+                <button class="deleteRow">X</button> <span>{{this.name}}: </span> {{> dropDownStyleCarts}}
+            </div>
+            {{/if}}{{/each}}
+        </div>
+        <div class="p3 floor">
+            <h1>P3</h1>
+            {{#each p3}}{{#if (selectCarts this)}}
+            <div class="row">
+                <button class="deleteRow">X</button> <span>{{this.name}}: </span> {{> dropDownStyleCarts}}
+            </div>
+            {{/if}}{{/each}}
+        </div>
+        <div class="p4 floor">
+            <h1>P4</h1>
+            {{#each p4}}{{#if (selectCarts this)}}
+            <div class="row">
+                <button class="deleteRow">X</button> <span>{{this.name}}: </span> {{> dropDownStyleCarts}}
+            </div>
+            {{/if}}{{/each}}
+        </div>
+    </div>
+</div>

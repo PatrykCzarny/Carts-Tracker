@@ -1,0 +1,62 @@
+/*
+#68A7AD
+#8FBDD3
+#F1DDBF
+#BE8C63
+#A97155
+#525E75
+#FF8AAE
+#78938A
+#92BA92
+#ffffff
+*/
+body{
+    background-color: #0E1319;
+    font-family: 'Prompt', sans-serif;
+}
+.container{
+    color: #fff;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.floor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.row .deleteRow{
+    margin: 10px 20px;
+    padding: 4px 10px;
+    font-size: 20px;
+}
+.row span{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.row select{
+    width: 150px;
+    height: 35px;
+    font-size: 22px;
+    text-align: center;
+}
+.row .option{
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+}

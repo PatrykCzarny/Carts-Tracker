@@ -1,0 +1,9 @@
+<div class="leftSide">
+    <h1>Carts</h1>
+    {{#each currentFloor }}
+    <div class="row" data-rowName="{{this.name}}">
+        <div class="name">{{this.name}}</div>
+        <div class="value" data-rowValue="{{this.value}}">{{this.value}}</div>
+    </div>
+    {{/each}}
+</div>
